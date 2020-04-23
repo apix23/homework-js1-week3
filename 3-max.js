@@ -5,6 +5,17 @@ Given an array of numbers, create a function to return the maximum
 
 function max(numbers){
     //your code here
+    var maxValue = 0;
+    
+    for (var i = 0; i < numbers.length; i++) {
+
+        if (numbers[i]>maxValue) {
+            maxValue= numbers[i];
+        }
+        
+    }
+
+    return maxValue;
 }
 
 const numbersArray1 = [1,3,5,9];

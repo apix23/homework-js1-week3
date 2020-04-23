@@ -17,3 +17,12 @@ console.log(abc.length);
 */
 
 //your code here
+var caracter ='#';
+
+for (let i = 0; i < 7; i++) {
+    var output;    
+    console.log(caracter);
+    
+    caracter += '#';   
+    
+}
